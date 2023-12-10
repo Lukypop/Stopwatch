@@ -1,0 +1,44 @@
+.container {
+font-family: Verdana, Geneva, Tahoma, sans-serif
+;
+   display: flex;
+   flex-direction: column;
+
+   justify-content: center;
+   align-items: center; 
+
+   width: 320px;
+   height: 200px;
+   gap: 0.5em;
+   padding: 2em;
+   border-radius: 20px;
+   background-color: rgb(12, 11, 11);
+   border:  1px solid #ccc;   
+}
+.enumelator {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #ccc;   
+    border-radius: 4px;
+}
+
+.set {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;   
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color:#ccc;  
+}
+.set:hover 
+{
+    color:#fff;
+    background-color: rgb(33, 33, 33);
+}

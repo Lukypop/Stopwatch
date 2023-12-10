@@ -1,0 +1,50 @@
+.red {
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+
+    width: 90vh;
+    height: 75vh;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    width: 100%;
+    font-size: 15vw;
+}
+
+
+.progress{
+    width: 100%;
+    height: 20px;
+    border-radius: 10px; 
+    overflow: hidden;
+}
+.button__flex {
+    margin-top: 0.5em;
+    display: flex;
+    gap: 0.5em;
+    justify-content: center     ;
+}
+.button {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;   
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color:#ccc;  
+}
+.button:hover{
+    color:#fff;
+    background-color: rgb(33, 33, 33);
+}
