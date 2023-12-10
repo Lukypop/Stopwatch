@@ -1,3 +1,3 @@
 # Stopwatch
-úkol do školy
+úkol do školy,
 zadání je ve složce
